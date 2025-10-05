@@ -29,18 +29,6 @@ Basit bir full-stack Todo uygulaması. Backend Express + PostgreSQL, frontend Re
      ```
    - Tarayıcıda `http://localhost:5173` açın (vite varsayılan).
 
-## Veritabanı (Örnek tablo)
-
-Veritabanında aşağıdaki tablo yeterli olacaktır:
-
-$$
-\text{CREATE TABLE todos (}
-\\\quad id SERIAL PRIMARY KEY,
-\\\quad title TEXT NOT NULL,
-\\\quad completed BOOLEAN DEFAULT FALSE,
-\\\quad created\_at TIMESTAMP DEFAULT NOW()
-\\\text{);}
-$$
 
 ## API (Özet)
 
